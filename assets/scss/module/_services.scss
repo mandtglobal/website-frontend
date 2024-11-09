@@ -10,6 +10,16 @@
     box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.11);
     @include prefix(transition, all .4s linear, webkit moz ms o);
 
+    .service-item__img {
+        position: relative;
+        overflow: hidden;
+        border-radius: 3px;
+
+        img {
+            @include prefix(transition, all 0.9s ease, webkit moz ms o);
+        }
+    }
+
     &:after {
         content: '';
         position: absolute;

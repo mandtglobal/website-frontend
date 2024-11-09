@@ -43,6 +43,11 @@
         }
     }
 
+    .pricing-panel__paragraph {
+        color: white;
+        padding-bottom: 1em;
+    }
+
     .pricing-panel__price {
         font-size: 40px;
         line-height: 1;
@@ -95,6 +100,7 @@
         -ms-flex: 0 0 22%;
         flex: 0 0 22%;
         max-width: 22%;
+        padding: 2em;
 
         .btn {
             min-width: 220px;

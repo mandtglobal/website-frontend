@@ -186,6 +186,45 @@
     }
 }
 
+.btn__gold {
+    background-color: $color-tertiary;
+    color: $color-dark;
+
+    .icon-arrow-right {
+        color: $color-white;
+        background-color: $color-dark;
+    }
+
+    &:hover {
+        color: $color-theme;
+
+        .icon-arrow-right {
+            color: $color-dark;
+            background-color: $color-white;
+        }
+    }
+
+    &:active,
+    &:focus {
+        background-color: $color-white;
+        color: $color-heading;
+    }
+
+    &.btn__bordered {
+        background-color: transparent;
+        border: 2px solid $color-white;
+        color: $color-white;
+
+        &:hover {
+            color: $color-theme;
+        }
+
+        &:before {
+            background-color: $color-white;
+        }
+    }
+}
+
 .btn__bordered {
     background-color: transparent;
 }
