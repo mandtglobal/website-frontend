@@ -6148,6 +6148,10 @@ textarea.form-control {
   background-color: #222222;
 }
 
+.pricing-panel-gold {
+  background-color: #ceaf32;
+}
+
 .pricing-panel-light {
   border: 2px solid #1b1a1a;
 }
