@@ -92,7 +92,7 @@
     padding: 50px;
     border-radius: 4px;
     max-width: 340px;
-    background-color: $color-theme;
+    background-color: $color-tertiary;
 
     &:before {
         content: '';
@@ -110,20 +110,20 @@
         bottom: -15px;
         left: 50px;
         border: 8px solid;
-        border-color: $color-theme transparent transparent $color-theme;
+        border-color: $color-theme transparent transparent $color-tertiary;
     }
 
     .blockquote-banner__title {
         font-size: 16px;
         font-weight: 700;
-        color: $color-white;
+        color: $color-dark;
     }
 
     .blockquote-banner__author {
         position: relative;
         font-size: 14px;
         font-weight: 700;
-        color: $color-white;
+        color: $color-dark;
         padding-left: 20px;
 
         &:before {

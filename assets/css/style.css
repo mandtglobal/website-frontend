@@ -4919,13 +4919,14 @@ textarea.form-control {
 }
 .member .member__info {
   padding-top: 24px;
+  text-align: center;
 }
 .member .member__info .member__name {
   font-size: 18px;
   margin-bottom: 5px;
 }
 .member .member__info .member__desc {
-  color: #149E14;
+  color: #eb2639;
   margin-bottom: 0;
 }
 .member .member__hover {
@@ -6752,7 +6753,7 @@ textarea.form-control {
   padding: 50px;
   border-radius: 4px;
   max-width: 340px;
-  background-color: #149E14;
+  background-color: #ceaf32;
 }
 .blockquote-banner:before {
   content: "";
@@ -6769,18 +6770,18 @@ textarea.form-control {
   bottom: -15px;
   left: 50px;
   border: 8px solid;
-  border-color: #149E14 transparent transparent #149E14;
+  border-color: #149E14 transparent transparent #ceaf32;
 }
 .blockquote-banner .blockquote-banner__title {
   font-size: 16px;
   font-weight: 700;
-  color: #ffffff;
+  color: #222222;
 }
 .blockquote-banner .blockquote-banner__author {
   position: relative;
   font-size: 14px;
   font-weight: 700;
-  color: #ffffff;
+  color: #222222;
   padding-left: 20px;
 }
 .blockquote-banner .blockquote-banner__author:before {
