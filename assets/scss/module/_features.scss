@@ -78,20 +78,22 @@
     }
 
     .feature-banner__icon {
-        color: $color-white;
+        color: $color-body;
         font-size: 60px;
         line-height: 1;
         margin-bottom: 20px;
+
     }
 
     .feature-banner__title {
-        color: $color-white;
+        color: $color-body;
         font-family: $font-body;
         font-size: 16px;
         font-weight: 700;
         line-height: 1.5;
         letter-spacing: .2px;
         margin-bottom: 0;
+
     }
 
     .feature-banner__content {
@@ -113,6 +115,11 @@
         .feature-banner__content {
             background-color: $color-dark;
         }
+    }
+
+    &:hover .feature-banner__icon,
+    &:hover .feature-banner__title {
+        color: $color-white;
     }
 }
 

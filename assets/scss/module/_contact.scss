@@ -112,9 +112,12 @@
         line-height: 1;
     }
 
-    &:hover,
+    &:hover {
+        color: $color-theme;
+    }
+
     &-white {
-        color: $color-white;
+        color: $color-tertiary;
     }
 }
 

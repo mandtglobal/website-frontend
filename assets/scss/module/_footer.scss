@@ -4,6 +4,10 @@
 .footer {
     background-color: #161616;
 
+    p {
+        color: $color-white;
+    }
+
     .social-icons li a {
         color: $color-theme;
         font-size: 17px;
@@ -24,7 +28,7 @@
 }
 
 .footer-widget-title {
-    color: $color-white;
+    color: $color-theme;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
@@ -34,7 +38,7 @@
 .footer-widget-nav li a {
     display: block;
     position: relative;
-    color: $color-body;
+    color: $color-white;
     font-size: 14px;
     margin-bottom: 11px;
 
@@ -70,12 +74,13 @@
 }
 
 .footer-copyrights {
-    background-color: #121212;
+    background-color: $color-white;
     padding-top: 42px;
     padding-bottom: 42px;
 
     p {
         font-size: 13px;
+        color: $color-body;
 
         a:hover {
             color: $color-white;
